@@ -1,4 +1,4 @@
-/* global */
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -13,19 +13,23 @@
     list-style: none;
   }
   
-  /* fonts */
+  /* FONTS */
   h1, h2, h3, .preço {
     font-family: "roboto-serif", serif;
     text-transform: uppercase;
     color: #2D2C2A;
   }
    
-  /* header */
+  /* HEADER */
   header {
     padding: 32px 0;
     text-align:  center;
   }
   
+   span{
+    color: #995000;
+   }
+
   header,
   section {
     max-width: 300px;
@@ -40,6 +44,7 @@
 
   header h1 span {
     color: #995000;
+    
   }
 
   header p {
@@ -49,7 +54,7 @@
     color: rgba(0, 0, 0, 0.7);
   }
   
-  /* section */
+  /* SECTION */
   section {
     margin-bottom: 24px;
   }
@@ -63,7 +68,7 @@
     font-size: 18px;
   }
   
-  /* lista */
+  /* LISTA */
   ul li {
     margin-bottom: 16px;
     display: flex;
